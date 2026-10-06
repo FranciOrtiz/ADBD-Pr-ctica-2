@@ -27,7 +27,10 @@ Bonuses que obtienen los socios del programa de fidelización de la empresa.
 3. Longitud: Longitud de la ubicación del vivero.
 4. Latitud: Latitud de la ubicación del vivero.
 #### Relaciones Vivero
-![Relaciones Viveros](Imágenes/Relaciones Viveros.png)
+![Relaciones Viveros](https://github.com/FranciOrtiz/ADBD-Pr-ctica-2/blob/5b842e1ace295961b06975d4a91aa2a8fb5bc5ce/Im%C3%A1genes/Relaciones_Viveros.png)
+
+Un Vivero de ID 1, con nombre x, se le ha destinado el Puesto de trabajo y tiene distintas zonas designadas dentro de él.
+
 ### Puesto:
 1. Id_Puesto: Número identificativo del puesto.
 2. Cargo: Designación del puesto.
