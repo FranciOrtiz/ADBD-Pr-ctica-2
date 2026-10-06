@@ -1,4 +1,5 @@
 # ADBD-Práctica-3
+## Francisco Ortiz López & Alejandro Dorta Luis
 ![Diagrama completo](https://github.com/FranciOrtiz/ADBD-Pr-ctica-2/blob/621e2eeca829f8e5af782c8f51203c62faa23755/Diagrama%20Pr%C3%A1ctica%203.png)
 
 ## Descripción de cada una de las entidades definidas.
