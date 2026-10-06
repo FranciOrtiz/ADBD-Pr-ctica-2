@@ -58,7 +58,11 @@ Como se especificó antes, múltiples Empleados pueden ser asignados a un mismo 
 ![Relaciones Tareas](https://github.com/FranciOrtiz/ADBD-Pr-ctica-2/blob/5601e0936d59c1b1dc3d88b1c664120d8dd8674e/Im%C3%A1genes/Relaciones%20Tareas.png)
 
 #### Descripción de la relación y cardinalidad
-Las Tareas se desempeñan en el Puesto de trabajo y se realizan en las distintas Zonas del Vivero en base a la Fecha de inicio y el Tiempo en llevarlas a cabo.
+La relación de Tareas con Zonas muestra dos atributos a tener en cuenta en la relación de estas:
+1. Tiempo en realizar: Marca el tiempo aproximado en el que se tarda en realizar la Tarea en la Zona.
+2. Fecha: Indica la Fecha en la que se deberá llevar a cabo la Tarea en la Zona especificada.
+
+De este modo tenemos que las Tareas se desempeñan en el Puesto de trabajo y se realizan en las distintas Zonas del Vivero en base a la Fecha de inicio y el Tiempo en llevarlas a cabo.
 Igual que se especificó antes, un Empleado puede realizar múltiples Tareas, dejando una cardinalidad de Uno a Muchos(M:1).
 Por otro lado, en base al Tiempo y la Fecha de las Tareas, se pueden tener múltiples Tareas en múltiples Zonas del Vivero, dejándonos una relación Muchos a Muchos(M:M).
 
@@ -71,7 +75,11 @@ Por otro lado, en base al Tiempo y la Fecha de las Tareas, se pueden tener múlt
 ![Relaciones Zonas](https://github.com/FranciOrtiz/ADBD-Pr-ctica-2/blob/5601e0936d59c1b1dc3d88b1c664120d8dd8674e/Im%C3%A1genes/Relaciones%20Zonas.png)
 
 #### Descripción de la relación y cardinalidad
-En la Zona perteneciente al Vivero, se realizan las Tareas y se tienen distintas cantidades de los Productos.
+Los atributos existentes entre Zonas y Tareas ya se han explicado con anterioridad.
+Luego existe un atributo en la relación de Zonas y Producto:
+1. Cantidad: Denomina la cantidad numérica de un Producto que se haya en las distintas Zonas del Vivero.
+
+Teniendo eso en cuenta, en la Zona perteneciente al Vivero, se realizan las Tareas y se tienen distintas cantidades de los Productos.
 Como se especificó al principio, un Vivero está comprendido por multitud de Zonas, poniendo así una cardinalidad de Uno a Muchos(M:1).
 Al igual que antes, múltiples Zonas pueden estar involucradas en múltiples Tareas, dejando así la cardinalidad de Muchos a Muchos(M:M).
 Las distintas Zonas de un Vivero pueden tener muchos Productos y en distintas cantidades, de ahí que podamos considerarlo una cardinalidad de Muchos a Muchos(M:M).
@@ -85,6 +93,8 @@ Las distintas Zonas de un Vivero pueden tener muchos Productos y en distintas ca
 ![Relaciones Productos](https://github.com/FranciOrtiz/ADBD-Pr-ctica-2/blob/5601e0936d59c1b1dc3d88b1c664120d8dd8674e/Im%C3%A1genes/Relaciones%20Producto.png)
 
 #### Descripción de la relación y cardinalidad
+El atributo existente en la relación entre Zonas y Productos ya fue explicado con anterioridad.
+
 Los distintos Productos se tienen en alguna de las Zonas del Vivero.
 Dicho pues, la relación entre los Productos y las Zonas de un Vivero son de cardinalidad Muchos a Muchos(M:M).
 
